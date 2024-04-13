@@ -1,0 +1,1 @@
+void LibRaw::jpeg_thumb_writer(FILE *tfp, char *t_humb, int t_humb_length){}

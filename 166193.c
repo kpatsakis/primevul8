@@ -1,0 +1,39 @@
+int http_process_tarpit(struct stream *s, struct channel *req, int an_bit)
+{
+	struct http_txn *txn = s->txn;
+
+	DBG_TRACE_ENTER(STRM_EV_STRM_ANA|STRM_EV_HTTP_ANA, s, txn, &txn->req);
+	/* This connection is being tarpitted. The CLIENT side has
+	 * already set the connect expiration date to the right
+	 * timeout. We just have to check that the client is still
+	 * there and that the timeout has not expired.
+	 */
+	channel_dont_connect(req);
+	if ((req->flags & (CF_SHUTR|CF_READ_ERROR)) == 0 &&
+	    !tick_is_expired(req->analyse_exp, now_ms)) {
+		/* Be sure to drain all data from the request channel */
+		channel_htx_erase(req, htxbuf(&req->buf));
+		DBG_TRACE_DEVEL("waiting for tarpit timeout expiry",
+				STRM_EV_STRM_ANA|STRM_EV_HTTP_ANA, s, txn);
+		return 0;
+	}
+
+
+	/* We will set the queue timer to the time spent, just for
+	 * logging purposes. We fake a 500 server error, so that the
+	 * attacker will not suspect his connection has been tarpitted.
+	 * It will not cause trouble to the logs because we can exclude
+	 * the tarpitted connections by filtering on the 'PT' status flags.
+	 */
+	s->logs.t_queue = tv_ms_elapsed(&s->logs.tv_accept, &now);
+
+	http_reply_and_close(s, txn->status, (!(req->flags & CF_READ_ERROR) ? http_error_message(s) : NULL));
+
+	if (!(s->flags & SF_ERR_MASK))
+		s->flags |= SF_ERR_PRXCOND;
+	if (!(s->flags & SF_FINST_MASK))
+		s->flags |= SF_FINST_T;
+
+	DBG_TRACE_LEAVE(STRM_EV_STRM_ANA|STRM_EV_HTTP_ANA, s, txn);
+	return 0;
+}

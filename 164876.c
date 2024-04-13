@@ -1,0 +1,1 @@
+	int numModules() const { return m_modules.size(); }

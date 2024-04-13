@@ -1,0 +1,1 @@
+  virtual int get_char() {return f->sbumpc();}

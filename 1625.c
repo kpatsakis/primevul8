@@ -1,0 +1,1 @@
+const NodeDef& Node::def() const { return props_->node_def; }

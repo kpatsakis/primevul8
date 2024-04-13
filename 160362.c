@@ -1,0 +1,1 @@
+void LibRaw::rollei_thumb(){}

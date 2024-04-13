@@ -1,0 +1,1 @@
+static void dummy(int x) { dummy2(x-1); }

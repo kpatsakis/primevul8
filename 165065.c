@@ -1,0 +1,1 @@
+	void setDirty() { m_isDirty = true; }

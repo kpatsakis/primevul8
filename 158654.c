@@ -1,0 +1,1 @@
+void lmtp_transport_init(transport_instance *tblock) {}

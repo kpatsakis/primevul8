@@ -1,0 +1,1 @@
+void timerstart(void) { QueryPerformanceCounter(&start); }

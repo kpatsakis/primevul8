@@ -1,0 +1,1 @@
+void auth_heimdal_gssapi_init(auth_instance *ablock) {}

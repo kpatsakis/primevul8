@@ -1,0 +1,1 @@
+  static inline float Thot(void) throw() { return 64.0f; }

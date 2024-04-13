@@ -1,0 +1,1 @@
+int LibRaw_buffer_datastream::valid() { return buf ? 1 : 0; }

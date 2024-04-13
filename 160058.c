@@ -1,0 +1,1 @@
+void LibRaw::scale_colors_loop(float scale_mul[4]) {}

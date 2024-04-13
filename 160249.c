@@ -1,0 +1,1 @@
+  static inline float T(void) throw() { return 1.4f; }

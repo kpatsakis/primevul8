@@ -1,0 +1,1 @@
+inline int32_t byteswap(int32_t value) { return _af_byteswap_int32(value); }

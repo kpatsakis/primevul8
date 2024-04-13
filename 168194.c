@@ -1,0 +1,1 @@
+static inline void load_mm_cr4(struct mm_struct *mm) {}

@@ -1,0 +1,1 @@
+  unsigned libraw_capabilities() { return LibRaw::capabilities(); }

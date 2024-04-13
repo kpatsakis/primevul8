@@ -1,0 +1,1 @@
+void LibRaw::write_ppm_tiff(){}

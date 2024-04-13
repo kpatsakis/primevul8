@@ -1,0 +1,1 @@
+void LibRaw::raw2image_start(){}

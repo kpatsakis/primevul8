@@ -1,0 +1,1 @@
+	bool canSeek() const { return m_canSeek; }

@@ -1,0 +1,1 @@
+int auth_heimdal_gssapi_server(auth_instance *ablock, uschar *data) {return 0;}

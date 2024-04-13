@@ -1,0 +1,3 @@
+Opal::Call::~Call ()
+{
+}

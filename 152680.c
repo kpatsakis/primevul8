@@ -1,0 +1,1 @@
+char *sccsid(void) { return (SCCSID); }

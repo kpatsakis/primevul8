@@ -1,0 +1,1 @@
+    inline void		wait () {_sem.wait();}

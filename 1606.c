@@ -1,0 +1,1 @@
+const std::string& Node::requested_device() const { return def().device(); }

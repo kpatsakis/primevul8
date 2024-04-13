@@ -1,0 +1,1 @@
+  virtual int jpeg_src(void *) { return -1; }

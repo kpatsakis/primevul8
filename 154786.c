@@ -1,0 +1,1 @@
+inline bool isinf(double val) { return !_finite(val); }

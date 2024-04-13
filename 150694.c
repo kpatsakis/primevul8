@@ -1,0 +1,1 @@
+    void setDelta(float val) CV_OVERRIDE { delta = val; }

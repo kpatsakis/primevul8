@@ -1,0 +1,1 @@
+int32 Node::num_outputs() const { return props_->output_types.size(); }

@@ -1,0 +1,1 @@
+static inline void __hrtimer_peek_ahead_timers(void) { }

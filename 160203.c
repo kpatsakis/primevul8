@@ -1,0 +1,1 @@
+		void adjust_blacklevel() { LibRaw::adjust_bl(); }

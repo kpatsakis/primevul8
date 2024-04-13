@@ -1,0 +1,1 @@
+bool Cluster::EOS() const { return (m_pSegment == NULL); }

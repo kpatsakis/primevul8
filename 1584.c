@@ -1,0 +1,1 @@
+const OpDef& Node::op_def() const { return *props_->op_def; }

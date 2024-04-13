@@ -1,0 +1,1 @@
+    float getDelta() const CV_OVERRIDE { return delta; }

@@ -1,0 +1,1 @@
+	virtual const char *name() const { return "ima_adpcm_decompress"; }

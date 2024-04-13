@@ -1,0 +1,3 @@
+	~SessionProtocolWorkingState() {
+		free(environmentVariablesData);
+	}

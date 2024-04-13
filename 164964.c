@@ -1,0 +1,1 @@
+	Result operator()(const Arg &x) const { return x >> shift; }

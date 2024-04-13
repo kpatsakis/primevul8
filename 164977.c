@@ -1,0 +1,1 @@
+	T *get() const { return m_ptr; }

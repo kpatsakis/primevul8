@@ -1,0 +1,1 @@
+  virtual INT64 size() { return streamsize; }

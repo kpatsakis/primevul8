@@ -1,0 +1,1 @@
+    void setSorIterations(int val) CV_OVERRIDE { sorIterations = val; }

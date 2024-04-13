@@ -1,0 +1,1 @@
+  int libraw_versionNumber() { return LibRaw::versionNumber(); }

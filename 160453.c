@@ -1,0 +1,1 @@
+  virtual const char *fname() { return NULL; };

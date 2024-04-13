@@ -1,0 +1,1 @@
+DataType Node::input_type(int32_t i) const { return props_->input_types[i]; }

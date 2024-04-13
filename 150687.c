@@ -1,0 +1,1 @@
+    void setFixedPointIterations(int val) CV_OVERRIDE { fixedPointIterations = val; }

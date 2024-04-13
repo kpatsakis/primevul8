@@ -1,0 +1,12 @@
+passIsName(CharsString *passLine, int *passLinepos, int *passPrevLinepos,
+		CharsString *passHoldString, FileInfo *passNested,
+		TranslationTableHeader *table) {
+	widechar passHoldNumber;
+	pass_Codes passCode = passGetScriptToken(passLine, passLinepos, passPrevLinepos,
+			passHoldString, &passHoldNumber, passNested, table);
+	if (passCode != pass_nameFound) {
+		compileError(passNested, "a name expected");
+		return 0;
+	}
+	return 1;
+}

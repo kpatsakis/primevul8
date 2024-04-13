@@ -1,0 +1,1 @@
+  LibRaw_abstract_datastream() { };

@@ -1,0 +1,1 @@
+static inline void debug_timer_activate(struct timer_list *timer) { }

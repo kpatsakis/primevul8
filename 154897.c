@@ -1,0 +1,1 @@
+inline bool isnan(double val) { return std::isnan(val); }

@@ -1,0 +1,1 @@
+void LibRaw::lossy_dng_load_raw() {}

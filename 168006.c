@@ -1,0 +1,56 @@
+get_max_rate_ht_20(int mcs)
+{
+    switch (mcs) {
+    case 0:
+        return 6500000;
+    case 1:
+    case 8:
+        return 13000000;
+    case 2:
+    case 16:
+        return 19500000;
+    case 3:
+    case 9:
+    case 24:
+        return 26000000;
+    case 4:
+    case 10:
+    case 17:
+        return 39000000;
+    case 5:
+    case 11:
+    case 25:
+        return 52000000;
+    case 6:
+    case 18:
+        return 58500000;
+    case 7:
+        return 65000000;
+    case 12:
+    case 19:
+    case 26:
+        return 78000000;
+    case 13:
+    case 27:
+        return 104000000;
+    case 14:
+    case 20:
+        return 117000000;
+    case 15:
+        return 130000000;
+    case 21:
+    case 28:
+        return 156000000;
+    case 22:
+        return 175500000;
+    case 23:
+        return 195000000;
+    case 29:
+        return 208000000;
+    case 30:
+        return 234000000;
+    case 31:
+        return 260000000;
+    }
+    return 0;
+}

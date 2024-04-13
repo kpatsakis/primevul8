@@ -1,0 +1,1 @@
+ ~HtmlImage() { delete fName; }

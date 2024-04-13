@@ -1,0 +1,1 @@
+  const char *libraw_version() { return LibRaw::version(); }

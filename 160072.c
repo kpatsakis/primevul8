@@ -1,0 +1,1 @@
+  CameraMetaDataLR(char *filename) : RawSpeed::CameraMetaData(filename) {}

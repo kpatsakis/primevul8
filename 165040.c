@@ -1,0 +1,1 @@
+	Mode mode() const { return m_mode; }

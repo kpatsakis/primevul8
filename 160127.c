@@ -1,0 +1,1 @@
+  libraw_output_params_t *output_params_ptr() { return &imgdata.params; }

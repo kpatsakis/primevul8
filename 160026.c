@@ -1,0 +1,1 @@
+LibRaw_buffer_datastream::~LibRaw_buffer_datastream() {}

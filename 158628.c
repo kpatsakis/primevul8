@@ -1,0 +1,1 @@
+host_build_sender_fullhost(void) { }

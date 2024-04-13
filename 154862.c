@@ -1,0 +1,1 @@
+inline bool isnan(double val) { return !!_isnan(val); }

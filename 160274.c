@@ -1,0 +1,1 @@
+  const char **libraw_cameraList() { return LibRaw::cameraList(); }

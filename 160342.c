@@ -1,0 +1,1 @@
+  virtual ~LibRaw_abstract_datastream(void) { }

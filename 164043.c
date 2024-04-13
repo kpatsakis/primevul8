@@ -1,0 +1,2 @@
+RemoteFsDevice::~RemoteFsDevice() {
+}

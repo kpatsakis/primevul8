@@ -1,0 +1,1 @@
+static inline void debug_timer_deactivate(struct timer_list *timer) { }

@@ -1,0 +1,1 @@
+    float getGamma() const CV_OVERRIDE { return gamma; }

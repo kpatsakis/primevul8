@@ -1,0 +1,16 @@
+static int bnxt_re_page_size_ok(int page_shift)
+{
+	switch (page_shift) {
+	case CMDQ_REGISTER_MR_LOG2_PBL_PG_SIZE_PG_4K:
+	case CMDQ_REGISTER_MR_LOG2_PBL_PG_SIZE_PG_8K:
+	case CMDQ_REGISTER_MR_LOG2_PBL_PG_SIZE_PG_64K:
+	case CMDQ_REGISTER_MR_LOG2_PBL_PG_SIZE_PG_2M:
+	case CMDQ_REGISTER_MR_LOG2_PBL_PG_SIZE_PG_256K:
+	case CMDQ_REGISTER_MR_LOG2_PBL_PG_SIZE_PG_1M:
+	case CMDQ_REGISTER_MR_LOG2_PBL_PG_SIZE_PG_4M:
+	case CMDQ_REGISTER_MR_LOG2_PBL_PG_SIZE_PG_1G:
+		return 1;
+	default:
+		return 0;
+	}
+}

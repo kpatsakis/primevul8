@@ -1,0 +1,1 @@
+		SignedType operator()(UnsignedType x) { return x + kMinSignedValue; }

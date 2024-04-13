@@ -1,0 +1,1 @@
+  static inline float Tg(void) throw() { return 256.0f; }

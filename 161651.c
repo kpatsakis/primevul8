@@ -1,0 +1,1 @@
+static inline void retrigger_next_event(void *arg) { }

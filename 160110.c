@@ -1,0 +1,1 @@
+void LibRaw::copy_bayer(unsigned short cblack[4], unsigned short *dmaxp){}

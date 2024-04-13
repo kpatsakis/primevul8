@@ -1,0 +1,1 @@
+  virtual int lock() { return 1; } /* success */

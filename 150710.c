@@ -1,0 +1,1 @@
+    int getSorIterations() const CV_OVERRIDE { return sorIterations; }

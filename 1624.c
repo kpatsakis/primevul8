@@ -1,0 +1,1 @@
+const std::string& Node::type_string() const { return props_->node_def.op(); }

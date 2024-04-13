@@ -1,0 +1,1 @@
+hrtimer_force_reprogram(struct hrtimer_cpu_base *base, int skip_equal) { }

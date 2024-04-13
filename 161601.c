@@ -1,0 +1,1 @@
+static inline void wq_watchdog_init(void) { }

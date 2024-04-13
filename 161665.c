@@ -1,0 +1,1 @@
+static inline void forward_timer_base(struct timer_base *base) { }

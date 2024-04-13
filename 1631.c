@@ -1,0 +1,1 @@
+DataType Node::output_type(int32_t o) const { return props_->output_types[o]; }

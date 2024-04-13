@@ -1,0 +1,1 @@
+NodeDef* Node::mutable_def() { return &props_->node_def; }

@@ -1,0 +1,1 @@
+static inline int __hrtimer_hres_active(struct hrtimer_cpu_base *b) { return 0; }

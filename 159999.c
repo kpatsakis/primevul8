@@ -1,0 +1,1 @@
+void LibRaw::fuji_rotate() {}

@@ -1,0 +1,1 @@
+	Chunk *inChunk() { return m_inChunk.get(); }

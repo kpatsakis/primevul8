@@ -1,0 +1,1 @@
+	bool isPacked() const { return packed; }

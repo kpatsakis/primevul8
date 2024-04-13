@@ -1,0 +1,1 @@
+		stack_frame(int t): token(t), state(0) {}

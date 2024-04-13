@@ -1,0 +1,1 @@
+	bool isDirty() const { return m_isDirty; }

@@ -1,0 +1,1 @@
+	operator UnspecifiedBoolType() const { return m_ptr ? &SharedPtr::m_ptr : 0; }

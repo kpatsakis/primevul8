@@ -1,0 +1,1 @@
+AttrSlice Node::attrs() const { return AttrSlice(def()); }

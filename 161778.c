@@ -1,0 +1,1 @@
+static void workqueue_sysfs_unregister(struct workqueue_struct *wq)	{ }

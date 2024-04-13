@@ -1,0 +1,1 @@
+void LibRaw::ppm_thumb(){}

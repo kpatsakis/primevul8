@@ -1,0 +1,1 @@
+	void retain() { m_refCount++; }

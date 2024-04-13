@@ -1,0 +1,1 @@
+inline uint64_t byteswap(uint64_t value) { return _af_byteswap_int64(value); }

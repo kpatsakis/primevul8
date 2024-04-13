@@ -1,0 +1,1 @@
+AAHD::~AAHD() { free(rgb_ahd[0]); }

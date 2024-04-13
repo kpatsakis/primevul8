@@ -1,0 +1,1 @@
+static inline void destroy_timer_on_stack(struct timer_list *timer) { }

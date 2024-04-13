@@ -1,0 +1,1 @@
+  unsigned int nextpixel() { return current < 14 ? pixelbuffer[current++] : 0; }

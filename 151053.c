@@ -1,0 +1,3 @@
+	SessionProtocolWorkingState()
+		: environmentVariablesData(NULL)
+		{ }

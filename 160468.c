@@ -1,0 +1,1 @@
+  int libraw_cameraCount() { return LibRaw::cameraCount(); }

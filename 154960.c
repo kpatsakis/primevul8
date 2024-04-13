@@ -1,0 +1,1 @@
+SeekHead::Entry::Entry() : id(0), pos(0), element_start(0), element_size(0) {}

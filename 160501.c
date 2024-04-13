@@ -1,0 +1,1 @@
+void LibRaw::convert_to_rgb_loop(float out_cam[3][4]) {}

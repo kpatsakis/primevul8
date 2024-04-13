@@ -1,0 +1,1 @@
+	void setOutChunk(Chunk *chunk) { m_outChunk = chunk; }

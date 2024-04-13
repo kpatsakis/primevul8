@@ -1,0 +1,1 @@
+void LibRaw::jpeg_thumb(){}

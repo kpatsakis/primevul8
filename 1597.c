@@ -1,0 +1,1 @@
+const DataTypeVector& Node::input_types() const { return props_->input_types; }

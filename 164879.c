@@ -1,0 +1,1 @@
+void Module::setSource(Module *module) { m_source = module; }

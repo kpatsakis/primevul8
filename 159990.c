@@ -1,0 +1,1 @@
+int LibRaw_file_datastream::valid() { return f.get() ? 1 : 0; }

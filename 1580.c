@@ -1,0 +1,1 @@
+const std::string& Node::name() const { return props_->node_def.name(); }

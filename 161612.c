@@ -1,0 +1,1 @@
+static inline void hrtimer_switch_to_hres(void) { }

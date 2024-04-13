@@ -1,0 +1,1 @@
+void Module::setSink(Module *module) { m_sink = module; }

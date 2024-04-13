@@ -1,0 +1,1 @@
+	virtual const char *name() const { return "compress4to3"; }

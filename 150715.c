@@ -1,0 +1,1 @@
+    int getFixedPointIterations() const CV_OVERRIDE { return fixedPointIterations; }

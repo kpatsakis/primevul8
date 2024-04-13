@@ -1,0 +1,1 @@
+    void setGamma(float val) CV_OVERRIDE { gamma = val; }

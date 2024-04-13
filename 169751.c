@@ -1,0 +1,1 @@
+static float inline i2f(int v) { return (float) v; }

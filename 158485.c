@@ -1,0 +1,1 @@
+BOOL lmtp_transport_entry(transport_instance *tblock, address_item *addr) {return FALSE;}

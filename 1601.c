@@ -1,0 +1,1 @@
+void Graph::set_versions(const VersionDef& versions) { *versions_ = versions; }

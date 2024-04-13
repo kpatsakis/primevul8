@@ -1,0 +1,1 @@
+Projection* VideoTrack::GetProjection() const { return m_projection; }

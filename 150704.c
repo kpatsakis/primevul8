@@ -1,0 +1,1 @@
+    float getOmega() const CV_OVERRIDE { return omega; }

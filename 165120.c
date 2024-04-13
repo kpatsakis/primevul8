@@ -1,0 +1,1 @@
+	void setInChunk(Chunk *chunk) { m_inChunk = chunk; }

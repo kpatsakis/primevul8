@@ -1,0 +1,1 @@
+void LibRaw::kodak_jpeg_load_raw() {}

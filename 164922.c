@@ -1,0 +1,1 @@
+static bool isInteger(FormatCode code) { return code >= kInt8 && code <= kInt32; }

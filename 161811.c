@@ -1,0 +1,1 @@
+static inline void debug_hrtimer_deactivate(struct hrtimer *timer) { }

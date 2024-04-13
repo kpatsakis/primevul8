@@ -1,0 +1,1 @@
+int32 Node::num_inputs() const { return props_->input_types.size(); }

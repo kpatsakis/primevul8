@@ -1,0 +1,1 @@
+	Result operator()(Arg x) const { return x; }

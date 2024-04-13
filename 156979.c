@@ -1,0 +1,4 @@
+PHP_FUNCTION(passthru)
+{
+	php_exec_ex(INTERNAL_FUNCTION_PARAM_PASSTHRU, 3);
+}

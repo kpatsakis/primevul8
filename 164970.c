@@ -1,0 +1,1 @@
+const char *ApplyChannelMatrix::name() const { return "channelMatrix"; }

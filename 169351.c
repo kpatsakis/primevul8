@@ -1,0 +1,1 @@
+        bool operator==(const int& imageType) const { return imageType == imageType_; }

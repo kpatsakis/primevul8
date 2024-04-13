@@ -1,0 +1,1 @@
+  int error_count() { return libraw_internal_data.unpacker_data.data_error; }

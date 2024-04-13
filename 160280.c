@@ -1,0 +1,1 @@
+int LibRaw_bigfile_datastream::valid() { return f ? 1 : 0; }

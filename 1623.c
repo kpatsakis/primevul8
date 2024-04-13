@@ -1,0 +1,1 @@
+const VersionDef& Graph::versions() const { return *versions_; }

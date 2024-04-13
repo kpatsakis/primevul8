@@ -1,0 +1,1 @@
+inline uint16_t byteswap(uint16_t value) { return _af_byteswap_int16(value); }

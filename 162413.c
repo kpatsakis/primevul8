@@ -1,0 +1,4 @@
+PHP_METHOD(snmp, set)
+{
+	php_snmp(INTERNAL_FUNCTION_PARAM_PASSTHRU, SNMP_CMD_SET, (-1));
+}
